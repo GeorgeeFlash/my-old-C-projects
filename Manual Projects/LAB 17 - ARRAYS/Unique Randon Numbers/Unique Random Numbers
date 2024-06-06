@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+	int array[49];
+	int numbers = 1, i, j, selected;
+	
+	
+	
+	for(i=0; i<49; i++)
+	{
+		array[i] = numbers;
+		numbers ++;
+	}
+	
+	srand(time(0));
+	
+	printf("Randomly Selected Numbers: ");
+	for(j=0; j < 10; j++)
+	{
+		do
+		{
+			selected = (rand() % 49) + 1; 
+		} while(array[selected] == 0);
+
+		printf("%d ", array[selected]);
+		array[selected] = 0;
+	}
+	
+	return 0;
+}

@@ -1,0 +1,23 @@
+
+**************************************************
+**************************************************
+=====Information on Fri Apr 19 12:45:26 2024
+=====
+
+Student: Flash
+Phone: 673789487
+Address: Mile 2
+Fee has not been paid in full!
+Total fee paid: 2500
+Number of installments paid in: 1
+
+**************************************************
+**************************************************
+====Updated Information of Flash at Fri Apr 19 12:46:42 2024
+====
+
+Student: George
+Phone: 679387948
+Address: Bambili
+Fee has now been paid in full!
+Number of Installments paid in: 2
